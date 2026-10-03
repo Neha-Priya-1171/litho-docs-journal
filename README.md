@@ -33,4 +33,4 @@ GDS layout → rasteriser → DMD → projection optics → beam splitter → ob
 **Writing a journal entry? Start with [journal/README.md](journal/README.md).**
 Team workflow: [CONTRIBUTING.md](CONTRIBUTING.md). First-time setup: [SETUP.md](SETUP.md).
 
-*Licence: to be chosen before this repo is made public.*
+
