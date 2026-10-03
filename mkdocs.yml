@@ -1,0 +1,12 @@
+site_name: Litho Documentation & Journal
+site_description: Hacker Fab maskless photolithography system (Mahindra University)
+docs_dir: docs
+theme:
+  name: material
+  features: [navigation.sections, navigation.top, search.suggest]
+markdown_extensions:
+  - tables
+  - admonition
+  - toc:
+      permalink: true
+# Only docs/ is published. The journal is intentionally not part of the website.

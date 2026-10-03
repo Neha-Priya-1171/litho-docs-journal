@@ -1,0 +1,13 @@
+# Large binary formats go through Git LFS (run `git lfs install` once per machine).
+# Scans (jpg) stay in normal Git because tools/prep_scans.py keeps them small.
+*.step  filter=lfs diff=lfs merge=lfs -text
+*.stp   filter=lfs diff=lfs merge=lfs -text
+*.sldprt filter=lfs diff=lfs merge=lfs -text
+*.sldasm filter=lfs diff=lfs merge=lfs -text
+*.f3d   filter=lfs diff=lfs merge=lfs -text
+*.f3z   filter=lfs diff=lfs merge=lfs -text
+*.gds   filter=lfs diff=lfs merge=lfs -text
+*.oas   filter=lfs diff=lfs merge=lfs -text
+*.npy   filter=lfs diff=lfs merge=lfs -text
+*.tif   filter=lfs diff=lfs merge=lfs -text
+*.tiff  filter=lfs diff=lfs merge=lfs -text

@@ -1,0 +1,22 @@
+# Single source of truth for people + subsystems.
+# The linter, the entry generator and the index builder all read this file.
+# Use short lowercase ids (they appear in file names).
+
+people:
+  neha:     {name: "Neha",     github: "Neha-Priya-1171"}
+  nishchay: {name: "Nishchay", github: "REPLACE-ME"}
+  mihir:    {name: "Mihir",    github: "REPLACE-ME"}
+
+# subsystem id -> where its verified knowledge lives in docs/
+subsystems:
+  optics:        docs/01-optics
+  mechanical:    docs/02-mechanical-cad
+  cad:           docs/02-mechanical-cad
+  electrical:    docs/03-electronics
+  software:      docs/04-software
+  procurement:   docs/05-bom-procurement
+  calibration:   docs/06-calibration-tests
+  process:       docs/08-process
+  cross-project: docs/09-cross-project
+
+statuses: [done, in-progress, blocked]

@@ -1,0 +1,10 @@
+# Replace the placeholders with real GitHub usernames (see SETUP.md).
+# Owners are auto-requested as reviewers on pull requests that touch these paths.
+# The journal is deliberately NOT listed: journal entries don't need review.
+/docs/       @Neha-Priya-1171 @REPLACE-nishchay @REPLACE-mihir
+/src/        @Neha-Priya-1171 @REPLACE-nishchay @REPLACE-mihir
+/cad/        @Neha-Priya-1171 @REPLACE-nishchay @REPLACE-mihir
+/tools/      @Neha-Priya-1171 @REPLACE-nishchay @REPLACE-mihir
+/.github/    @Neha-Priya-1171 @REPLACE-nishchay @REPLACE-mihir
+/team.yml    @Neha-Priya-1171 @REPLACE-nishchay @REPLACE-mihir
+/README.md   @Neha-Priya-1171 @REPLACE-nishchay @REPLACE-mihir

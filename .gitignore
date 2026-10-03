@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+Thumbs.db
+site/
+# raw, un-resized phone photos waiting to be processed
+scans_inbox/
+# anything private (prices, quotes, vendor contacts) must NOT live in this repo.
+# This folder is ignored as a safety net only.
+private/
